@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Walsh Painting | Belle Meade • Nashville, TN</title>
+    <meta
+      name="description"
+      content="Walsh Painting provides trusted residential and commercial painting in Belle Meade and the Nashville area. Clean prep, sharp lines, and professional communication. Request a free estimate."
+    />
+    <meta name="theme-color" content="#092236" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon (your logo embedded) -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAADDPmHLAAA8E0lEQVR4nO2de3BV1ZnHP9/9zA0yIISQQCwhkVEBEoQKRUvLrZq2Wm3b2fXW2tq2bW3b2tY6rV1b2rZt2+6wU2Oq0RZQpLQqg0JQEEhCkEJgJgQwQwM3zv3n3Oe+8M8i2V3mG8z6e+3vP+f8d8YwTnYl8f3k9VQAAAP//5O9b7QAAAK9kqz0AAACwz1cCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAP//Y9wR6wAAAN8o1z0AAADbQ9YAAABgq1Y9AAAA2yHWAQAAoM0nAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAMx9JQAAAMDGdwIAAADMfSUAAADAxncCAAAAzH0lAAAAwMZ3AgAAAP//mF0AAQAAwQy9AAAAAP//AwCkq7m1GgAAAABJRU5ErkJggg=="
+    />
+
+    <style>
+      :root{
+        /* Colors matched to your artwork */
+        --navy:#092236;
+        --navy2:#132F43;
+        --paper:#F3F1EC;
+        --accent:#37ADD2;
+        --gold:#CFBA5F;
+
+        --ink:#0b1c2a;
+        --muted:#5b6a75;
+
+        --shadow: 0 12px 30px rgba(9,34,54,.18);
+        --radius: 22px;
+        --radius2: 16px;
+
+        --max: 1120px;
+      }
+
+      *{ box-sizing:border-box; }
+      html{ scroll-behavior:smooth; }
+      body{
+        margin:0;
+        font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        color:var(--ink);
+        background: radial-gradient(1100px 700px at 20% -10%, rgba(55,173,210,.12), transparent 60%),
+                    radial-gradient(900px 600px at 90% 10%, rgba(207,186,95,.10), transparent 55%),
+                    var(--paper);
+      }
+      a{ color:inherit; text-decoration:none; }
+      img{ max-width:100%; display:block; }
+      .wrap{ max-width:var(--max); margin:0 auto; padding:0 20px; }
+
+      header{
+        position:sticky; top:0; z-index:50;
+        backdrop-filter: blur(10px);
+        background: rgba(243,241,236,.78);
+        border-bottom: 1px solid rgba(9,34,54,.08);
+      }
+      .nav{
+        display:flex; align-items:center; justify-content:space-between;
+        padding:14px 0;
+        gap:14px;
+      }
+      .brand{
+        display:flex; align-items:center; gap:12px; min-width: 220px;
+      }
+      .brand img{
+        width:44px; height:44px; object-fit:contain;
+        border-radius:12px;
+        box-shadow: 0 6px 14px rgba(9,34,54,.10);
+        background: rgba(255,255,255,.75);
+      }
+      .brand .name{ line-height:1.05; }
+      .brand .name strong{
+        font-family: Cinzel, serif;
+        letter-spacing:.08em;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: var(--navy);
+      }
+      .brand .name span{
+        display:block;
+        font-size:12px;
+        color: var(--muted);
+      }
+
+      .links{ display:flex; align-items:center; gap:18px; }
+      .links a{
+        font-weight:600;
+        color: rgba(9,34,54,.86);
+        font-size:14px;
+      }
+      .links a:hover{ color: var(--navy); text-decoration: underline; text-underline-offset: 4px; }
+
+      .ctaRow{ display:flex; align-items:center; gap:10px; }
+
+      .btn{
+        display:inline-flex; align-items:center; justify-content:center;
+        padding:11px 14px;
+        border-radius: 999px;
+        font-weight:700;
+        font-size:14px;
+        border: 1px solid transparent;
+        transition: transform .15s ease, box-shadow .15s ease, background .15s ease, border-color .15s ease;
+        white-space:nowrap;
+      }
+      .btn:active{ transform: translateY(1px); }
+      .btnPrimary{
+        background: var(--navy);
+        color: var(--paper);
+        box-shadow: 0 10px 22px rgba(9,34,54,.18);
+      }
+      .btnPrimary:hover{ box-shadow: 0 14px 30px rgba(9,34,54,.24); }
+      .btnGhost{
+        background: rgba(9,34,54,.04);
+        border-color: rgba(9,34,54,.16);
+        color: var(--navy);
+      }
+      .btnGhost:hover{ background: rgba(9,34,54,.07); }
+
+      .menuBtn{
+        display:none;
+        background: rgba(9,34,54,.05);
+        border:1px solid rgba(9,34,54,.16);
+        border-radius: 12px;
+        padding:10px 12px;
+        font-weight:800;
+        color: var(--navy);
+      }
+
+      .hero{ padding: 52px 0 26px; }
+      .heroGrid{
+        display:grid;
+        grid-template-columns: 1.1fr .9fr;
+        gap: 26px;
+        align-items: stretch;
+      }
+      .headline{
+        font-family: Cinzel, serif;
+        color: var(--navy);
+        letter-spacing: .03em;
+        margin: 0 0 12px;
+        font-size: clamp(30px, 4vw, 46px);
+        line-height: 1.1;
+      }
+      .sub{
+        margin: 0 0 18px;
+        font-size: 16px;
+        line-height: 1.6;
+        color: rgba(11,28,42,.78);
+        max-width: 60ch;
+      }
+      .pillRow{
+        display:flex;
+        flex-wrap:wrap;
+        gap:10px;
+        margin: 18px 0 22px;
+      }
+      .pill{
+        background: rgba(255,255,255,.55);
+        border: 1px solid rgba(9,34,54,.10);
+        padding: 10px 12px;
+        border-radius: 999px;
+        font-weight: 700;
+        font-size: 13px;
+        color: rgba(9,34,54,.86);
+      }
+      .pill b{ color: var(--navy); }
+
+      .heroActions{ display:flex; gap:12px; flex-wrap:wrap; }
+
+      .card{
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        overflow:hidden;
+        border: 1px solid rgba(9,34,54,.12);
+        background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.25));
+      }
+      .brandPanel{
+        position:relative;
+        padding: 24px;
+        border-radius: var(--radius);
+      }
+      .brandPanel::before{
+        content:"";
+        position:absolute; inset:0;
+        background:
+          radial-gradient(800px 500px at 30% 10%, rgba(55,173,210,.25), transparent 55%),
+          radial-gradient(700px 420px at 90% 0%, rgba(207,186,95,.22), transparent 55%),
+          linear-gradient(180deg, var(--navy2), var(--navy));
+        z-index:0;
+      }
+      .brandPanel > *{ position:relative; z-index:1; }
+
+      .panelTop{ display:flex; align-items:center; gap:14px; margin-bottom: 18px; }
+      .panelLogo{
+        width: 64px; height: 64px;
+        background: rgba(243,241,236,.96);
+        border-radius: 18px;
+        padding: 10px;
+        box-shadow: 0 10px 18px rgba(0,0,0,.18);
+      }
+      .panelTitle{ color: var(--paper); }
+      .panelTitle .big{
+        font-family: Cinzel, serif;
+        letter-spacing: .12em;
+        text-transform: uppercase;
+        font-size: 18px;
+        margin:0;
+      }
+      .panelTitle .small{
+        margin: 4px 0 0;
+        color: rgba(243,241,236,.78);
+        font-weight: 700;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+      .tagline{
+        margin: 16px 0 0;
+        padding-top: 16px;
+        border-top: 2px solid rgba(207,186,95,.65);
+        color: rgba(243,241,236,.92);
+        font-size: 16px;
+        line-height: 1.55;
+      }
+      .tagline em{
+        color: var(--gold);
+        font-style: italic;
+        font-weight: 700;
+      }
+      .panelStats{
+        margin-top: 16px;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+      .stat{
+        background: rgba(243,241,236,.08);
+        border: 1px solid rgba(243,241,236,.12);
+        border-radius: 16px;
+        padding: 12px;
+      }
+      .stat b{ display:block; color: var(--accent); font-size: 13px; }
+      .stat span{
+        display:block;
+        margin-top: 6px;
+        color: rgba(243,241,236,.88);
+        font-weight: 700;
+        font-size: 13px;
+      }
+
+      section{ padding: 44px 0; }
+      .sectionTitle{
+        margin:0 0 12px;
+        font-family: Cinzel, serif;
+        letter-spacing:.06em;
+        color: var(--navy);
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      .sectionSub{
+        margin:0 0 22px;
+        color: rgba(11,28,42,.72);
+        line-height: 1.6;
+        max-width: 82ch;
+      }
+
+      .grid3{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+      }
+      .tile{
+        background: rgba(255,255,255,.55);
+        border: 1px solid rgba(9,34,54,.10);
+        border-radius: var(--radius2);
+        padding: 18px;
+        box-shadow: 0 10px 24px rgba(9,34,54,.06);
+      }
+      .tile h3{ margin:0 0 8px; color: var(--navy); font-size: 16px; }
+      .tile p{ margin:0; color: rgba(11,28,42,.72); line-height: 1.55; font-size: 14px; }
+
+      .badge{
+        display:inline-flex; align-items:center; gap:8px;
+        font-weight:800; letter-spacing:.06em;
+        text-transform: uppercase; font-size: 11px;
+        color: rgba(9,34,54,.86);
+        margin-bottom: 10px;
+      }
+      .dot{
+        width:10px; height:10px; border-radius:999px;
+        background: var(--accent);
+        box-shadow: 0 0 0 5px rgba(55,173,210,.16);
+      }
+
+      .process{ display:grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+      .step{
+        padding: 18px;
+        border-radius: var(--radius2);
+        border: 1px solid rgba(9,34,54,.10);
+        background: rgba(255,255,255,.50);
+      }
+      .step b{ color: var(--navy); display:block; margin-bottom: 6px; }
+      .step span{ color: rgba(11,28,42,.72); line-height: 1.55; font-size: 14px; }
+
+      .gallery{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+      .ph{
+        border-radius: var(--radius2);
+        overflow:hidden;
+        border: 1px solid rgba(9,34,54,.12);
+        min-height: 170px;
+        background:
+          radial-gradient(420px 220px at 25% 20%, rgba(55,173,210,.22), transparent 55%),
+          radial-gradient(420px 220px at 85% 30%, rgba(207,186,95,.18), transparent 60%),
+          linear-gradient(180deg, rgba(9,34,54,.16), rgba(9,34,54,.06));
+        position:relative;
+      }
+      .ph span{
+        position:absolute; inset:auto 14px 14px 14px;
+        padding: 10px 12px;
+        border-radius: 14px;
+        background: rgba(243,241,236,.85);
+        border: 1px solid rgba(9,34,54,.10);
+        font-weight: 800;
+        color: var(--navy);
+        font-size: 12px;
+      }
+
+      .contactGrid{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+        align-items: start;
+      }
+      .contactCard{
+        border-radius: var(--radius);
+        border: 1px solid rgba(9,34,54,.12);
+        background: rgba(255,255,255,.55);
+        padding: 18px;
+        box-shadow: 0 10px 24px rgba(9,34,54,.06);
+      }
+      .contactCard h3{ margin:0 0 8px; color: var(--navy); }
+
+      .contactLine{
+        display:flex; align-items:center; gap:10px;
+        padding: 10px 12px;
+        border-radius: 14px;
+        border: 1px solid rgba(9,34,54,.10);
+        background: rgba(243,241,236,.75);
+        margin-top: 10px;
+        font-weight: 700;
+      }
+      .icon{
+        width:34px; height:34px;
+        border-radius: 12px;
+        display:grid; place-items:center;
+        background: rgba(55,173,210,.14);
+        border: 1px solid rgba(55,173,210,.30);
+        color: var(--navy);
+        font-weight: 900;
+      }
+
+      form label{
+        display:block;
+        font-size: 13px;
+        font-weight: 800;
+        color: rgba(9,34,54,.86);
+        margin: 12px 0 6px;
+      }
+      input, textarea{
+        width:100%;
+        border-radius: 14px;
+        border: 1px solid rgba(9,34,54,.14);
+        padding: 12px 12px;
+        font-size: 14px;
+        outline:none;
+        background: rgba(255,255,255,.8);
+      }
+      textarea{ min-height: 120px; resize: vertical; }
+      input:focus, textarea:focus{
+        border-color: rgba(55,173,210,.65);
+        box-shadow: 0 0 0 4px rgba(55,173,210,.18);
+      }
+      .formRow{ display:grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+      .note{
+        margin-top: 10px;
+        color: rgba(11,28,42,.65);
+        font-size: 13px;
+        line-height: 1.55;
+      }
+
+      footer{
+        padding: 24px 0 40px;
+        border-top: 1px solid rgba(9,34,54,.08);
+        margin-top: 20px;
+      }
+      .foot{
+        display:flex;
+        justify-content:space-between;
+        gap:14px;
+        flex-wrap:wrap;
+        color: rgba(11,28,42,.70);
+        font-size: 13px;
+      }
+      .foot b{ color: var(--navy); }
+
+      @media (max-width: 960px){
+        .heroGrid{ grid-template-columns: 1fr; }
+        .grid3{ grid-template-columns: 1fr; }
+        .process{ grid-template-columns: 1fr; }
+        .gallery{ grid-template-columns: 1fr; }
+        .contactGrid{ grid-template-columns: 1fr; }
+        .links{ display:none; }
+        .menuBtn{ display:inline-flex; }
+      }
+
+      .mobileMenu{ display:none; padding: 0 0 14px; }
+      .mobileMenu a{
+        display:block;
+        padding: 10px 0;
+        border-top: 1px solid rgba(9,34,54,.08);
+        font-weight: 800;
+        color: rgba(9,34,54,.86);
+      }
+      .mobileMenu.show{ display:block; }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="wrap">
+        <div class="nav">
+          <a class="brand" href="#top" aria-label="Walsh Painting Home">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAIAAAD7GO7aAABHn0lEQVR4nO3de3BU1b3/8c+9QGkQpSgEJQpQ0gQKQWgUqUqjVtq2bW1t2+7a2tq2bW3b2tY6rV1b2rZt2+6wU2Oq0RZQpLQqg0JQEEhCkEJgJgQwQwM3zv3n3Oe+8M8j7b9m+e8+3vP+f8d+Yc8kqkqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqK
